@@ -11,7 +11,7 @@ def aa():
     print('i visited')
     return 
 @app.route('/counter')
-def sex():
+def set():
     global visited
     visited +=1
     return render_template('practice.html',visited=visited)
